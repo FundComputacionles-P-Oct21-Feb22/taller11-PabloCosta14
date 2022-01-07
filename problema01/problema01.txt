@@ -36,7 +36,7 @@
 19.        leer nombre // "Ana Contreras"
 
 20.        Escribir "Ingrese su numero de cedula"
-21.        leer cedula
+21.        leer cedula //  1100112233
 
 22.        Escribir "Ingrese el valor del kilowatio"
 23.        leer valorKilowatio
@@ -44,7 +44,7 @@
 24.        Escribir "Ingrese el numero de kilowatios del mes"
 25.        leer numeroKilowatiosMes
 
-26.     resultado <-- valorKilowatio * numerioKilowatiosMes
+26.     resultado <-- valorKilowatio * numeroKilowatiosMes
 
 27.      Escribir " "Cliente" +""+ nombre +""+ "con cedula" +""+ cedula +""+ "debe cancelar el valor de"+""+ resultado
 28.  fin funcion obtenerCalcularValorLuz
@@ -59,7 +59,7 @@
 35.        leer nombre // "Ana Contreras"
 
 36.        Escribir "Ingrese su numero de cedula"
-37.        leer cedula
+37.        leer cedula // 1100112233
 
 38.        Escribir "Ingrese el valor del inmueble"
 39.        leer valor
