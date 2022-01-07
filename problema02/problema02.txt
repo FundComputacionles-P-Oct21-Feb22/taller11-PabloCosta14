@@ -1,0 +1,32 @@
+//Problema 02
+//Generar un procedimiento sin parámetros. El objetivo del procedimiento es ingresar los valores de un arreglo unidimensional de tipo cadena, 
+//el número de elementos del arreglo es de 5; en el mismo procedimiento usar otro ciclo repetitivo para presentar los valores del arreglo. 
+//Al procedimiento se lo debe invocar desde la función principal
+
+-------------------------------------------------------------------------Miniespecificacion--------------------------------------------------------------------------------------
+1.  Inicio
+2.  funcion principal()
+
+3.      obtenerValor()                   
+      
+4.  fin funcion principal 
+ 
+5.  funcion obtenerValor()
+6.       (valores(5), x(25)[{a-z},{A-Z},{BS})
+7.       (valoresCadena, x(25)[{a-z},{A-Z},{BS}) 
+
+8.   Para(indice<--0, indice<5, 1) haga 
+      
+9.    Escribir "Ingrese el valor del arreglo de tipo cadena"  
+10.    Leer valoresCadena   
+11.    valores[indice] <-- valoresCadena
+ 
+12.  Fin_para
+13.   Para(indice<--0, indice<5, 1) haga 
+
+14.      Escribir valores[indice]
+
+15.   Fin_ para 
+
+16.  fin funcion obtenerValor
+17. Fin

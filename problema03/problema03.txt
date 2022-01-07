@@ -1,0 +1,76 @@
+//Problema 03
+//Generar una solución que implemente 3 procedimientos. 
+//Que permitan calcular el área de un cuadrado, área de un triángulo y área de un rectángulo. 
+//Cada procedimiento debe solicitar los datos necesarios y presentar o imprimir el valor correspondiente. 
+//Se debe invocar a los procedimientos desde un método principal; 
+//Si el usuario ingresa 1 se llama al procedimiento obtenerAreaCuadrado; 2 se llama al procedimiento obtenerAreaTriangulo; 3 se llama al procedimiento obtenerAreaRectangulo.
+//El área del cuadrado es igual a lado x lado x lado x lado
+//El área del triángulo es igual a (base x altura)/2
+//El área del rectángulo es igual a base x altura
+---------------------------------------------------------Miniespecificacion-----------------------------------------------------------------
+1.Inicio
+
+2. funcion principal()
+
+3.  tipofigura, i[0, n]     
+
+4. Escribir "Ingrese 1  para calcular el area de un cuadrado, 2 para calcular el area de un triangulo y 3
+		 para calcular el area de un rectangulo"
+5. Leer tipofigura
+  
+6.  Si tipofigura == 1 entonces
+7.         obtenerAreaCuadrado()
+8.          Caso contrario
+9.	     Si tipofigura == 2 entonces
+10.                 obtenerAreaTriangulo()
+11.                   Caso contrario
+12.                     Si tipofigura == 3 entonces
+13.                           obtenerAreaRectangulo()
+14.                      Caso contrario
+15.                            Escribir "valor incorrecto"
+16.                      Fin_si
+17.          Fin_si    
+18.  Fin_si       
+19. 
+20. fin funcion principal
+    
+21   función obtenerAreaCuadrado() : d 
+22.    area_del_cuadrado, d[0-n]
+23.    lado, d[0-n]
+24.    Escribir "Ingrese el valor de un lado de un cuadradado para calcular su area"
+25.    leer lado
+26.    area_del_cuadrado <-- lado*lado*lado*lado
+27.    Escribir area_del_cuadrado
+
+28.  fin funcion obtenerAreaCuadrado  
+
+29.  función obtenerAreaTriangulo() : d 
+30.   triangulo, d[0,n]
+31.   base, d[0-n]
+32.   altura, d[0-n]
+
+33.   Escribir "Ingrese el valor de la base del triangulo"
+34.   leer base
+35.   Escribir "Ingrese el valor de la altura del triangulo"
+36.   leer altura
+
+37.   triangulo <-- (base*altura)/2
+38.   Escribir triangulo
+
+39.  fin funcion obtenerAreaTriangulo
+		
+40.  funcion obtenerAreaRectangulo() : d 
+41.   area_del_rectangulo, d[0-n]
+42.    base, d[0-n]
+43.   altura, d[0-n]
+
+44.   Escribir <-- "Ingrese el valor de la altura del rectangulo"
+45.   leer altura
+46.   Escribir <-- "Ingrese el valor de la base del rectangulo"
+47.   leer base
+
+48.   area_del_rectangulo <-- base * altura 
+49.   Escribir area_del_rectangulo
+
+50.  fin funcion obtenerAreaRectangulo
+51.fin         

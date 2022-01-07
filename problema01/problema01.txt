@@ -1,0 +1,73 @@
+//problema 01
+//Generar un procedimiento para calcular el valor de la planilla de luz y otro procedimiento para calcular el valor del predio de un bien inmueble. Cada procedimiento debe tener 2 parámetros (tipo cadena para nombre del cliente, cédula del cliente).
+//En el procedimiento de planilla de luz se debe pedir los siguiente datos valor del kilowatio y el número de kilowatios del mes. Y se presenta en pantalla el siguiente reporte: Cliente Ana Contreras con cédula 1100112233 debe cancelar el valor de $10
+
+//En el procedimiento del predio se debe pedir el valor de inmueble y el para obtener el valor del predio se saca el 2% del valor del inmueble. Y se presenta el siguiente reporte:
+
+//Cliente Ana Contreras con cédula 1100112233 tiene un bien inmueble valorado en $30000 y tiene que pagar de predio $ 6000.
+
+//En el método principal; si el usuario ingresa 1 se llama al procedimiento calcularValorLuz; 2 se llama al procedimiento calcularPredio. Los datos que se necesita en cada procedimiento se los debe ingresar por teclado.
+
+-------------------------------------------------------------------------------Miniespecificacion--------------------------------------------------------------------------------
+
+1. Inicio
+2.  funcion principal()  
+3.      variable3, i[0-n]
+
+4.      Escribir "Ingrese el numero 1 para la calcular el valor de la luz o ingrese el numero 2 para calcular el promedio"
+5.        leer variable3
+
+6.      si variable3 == 1 entonces  
+7.         obtenerCalcularValorLuz()
+8.        caso contrario
+9.            si variable3 == 2 entonces
+10.               obtenercalcularprecio()
+     
+11. fin funcion principal 
+
+12.  funcion obtenerCalcularValorLuz() 
+13.     nombre, x(25)[{a-z},{A-Z},{BS}] 
+14.        cedula, i[0-n] 
+15.        valorKilowatio, d[0-n]
+16.        numeroKilowatiosMes,d[0-n]
+17.        resultado, d[0-n]
+
+18.        Escribir "Ingrese su nombre completo"
+19.        leer nombre // "Ana Contreras"
+
+20.        Escribir "Ingrese su numero de cedula"
+21.        leer cedula
+
+22.        Escribir "Ingrese el valor del kilowatio"
+23.        leer valorKilowatio
+
+24.        Escribir "Ingrese el numero de kilowatios del mes"
+25.        leer numeroKilowatiosMes
+
+26.     resultado <-- valorKilowatio * numerioKilowatiosMes
+
+27.      Escribir " "Cliente" +""+ nombre +""+ "con cedula" +""+ cedula +""+ "debe cancelar el valor de"+""+ resultado
+28.  fin funcion obtenerCalcularValorLuz
+
+29.  funcion obtenercalcularPrecio()
+30.  nombre, x(25)[{a-z},{A-Z},{BS}] 
+31.        cedula, i[0-n] 
+32.        valor, d[0-n]
+33.        resultado, d[0-n]
+
+34.        Escribir "Ingrese su nombre completo"
+35.        leer nombre // "Ana Contreras"
+
+36.        Escribir "Ingrese su numero de cedula"
+37.        leer cedula
+
+38.        Escribir "Ingrese el valor del inmueble"
+39.        leer valor
+        
+40.        resultado <-- (valor*2)/100
+
+41.        Escribir "Cliente"+""+ nombre +""+ "con cedula"+""+"tiene un bien inmueble valorado en"+""+ valor +""+"y tiene que pagar de predio"+""+ resultado 
+
+42.  fin funcion obtenercalcularPrecio
+
+43. Fin
